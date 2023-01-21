@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_usb"
+        android:icon="@drawable/usb"
+        android:title="USB Manager" />
+
+    <item
+        android:id="@+id/navigation_wlan"
+        android:icon="@drawable/wifi"
+        android:title="Wlan Manager"
+         />
+
+    <item
+        android:id="@+id/navigation_driver"
+        android:icon="@drawable/driver"
+        android:title="Driver Manager" />
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/baseline_info_24"
+        android:title="About" />
+</menu>

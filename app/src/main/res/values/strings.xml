@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Monitorer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="android_version">Android version</string>
+    <string name="root_access">Root access</string>
+    <string name="wlan0_monitor_mode">Wlan0 monitor mode</string>
+    <string name="usb_otg_support">USB OTG support</string>
+    <string name="modules_support">Modules support</string>
+    <string name="force_modules_load">Force modules load</string>
+    <string name="enabled_devices_drivers">Enabled devices drivers</string>
+    <string name="your_device_is_fully_compatible">Your device is fully compatible!</string>
+    <string name="warn">Device have some warnings!</string>
+    <string name="not">Device not compatible!</string>
+    <string name="about_desc">Developer: @zalexdev\nVersion: 1.0\nBest pentest app - zalex.dev/stryker</string>
+    <string name="about_app">About app</string>
+</resources>

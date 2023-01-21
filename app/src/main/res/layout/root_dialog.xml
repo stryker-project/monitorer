@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    app:strokeColor="@color/grey"
+    app:strokeWidth="1dp"
+    app:cardCornerRadius="15dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/magisk"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Root missing!"
+            android:fontFamily="@font/lato"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Due to the root misses on the device, the following functions will not be available:\n\n ● Find out more information about supported operations by your wifi chipset and kernel\n
+● In one click, switch the internal Wi-Fi or the adapter to the monitor mode or from it
+\n ● Enable and disable .ko files (via insmod)"/>
+
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

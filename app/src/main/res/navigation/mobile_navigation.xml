@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_wlan">
+
+    <fragment
+        android:id="@+id/navigation_wlan"
+        android:name="com.zalexdev.monitorer.ui.wlanmanager.WlanFragment"
+        android:label="Wlan manager"
+        tools:layout="@layout/fragment_wlan" />
+
+    <fragment
+        android:id="@+id/navigation_usb"
+        android:name="com.zalexdev.monitorer.ui.usbmanager.UsbManagerFragment"
+        android:label="Usb Manager"
+        tools:layout="@layout/fragment_usb" />
+
+    <fragment
+        android:id="@+id/navigation_driver"
+        android:name="com.zalexdev.monitorer.ui.drivermanager.DriverFragment"
+        android:label="Driver manager"
+        tools:layout="@layout/fragment_driver" />
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.zalexdev.monitorer.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
